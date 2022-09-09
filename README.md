@@ -1,6 +1,6 @@
 # Scene Reconstruction for Edge using Metadata (MQTT Implementation)
 
-**IMPORTANT : Due to organization policy, source code cannot be shared. The basic idea can be obtained from respective `README.md` files**
+**IMPORTANT : Due to organization policy, source code cannot be shared. The basic idea can be obtained from the respective `README.md` files.**
 
 ## Objective
 Reconstruction or Approximation of environment from edge data. Using pre-trained models, we are analyzing the incoming edge data (CCTV camera footage) and extracting the detected objects and person's pose. These metadata are sent to remote server, where using these metadata, the video scene is reconstructed or approximated on a Real-time manner.
@@ -23,12 +23,12 @@ You need to install the MQTT broker from [Mosquitto](https://mosquitto.org/downl
 
 ## Running the System
 
-- Clone the Repository
-- Switch to the necessary branch with respect to the protocol
-- Start running the broker
-- Open two different Command Prompts
-- On one prompt, run the Publisher
-- On the other prompt, run the Subscriber 
+- Clone the Repository.
+- Switch to the `mqtt` branch.
+- Start running the broker.
+- Open two different Command Prompts.
+- On one prompt, run the Publisher.
+- On the other prompt, run the Subscriber.
 
 ## Constraints and Future Improvements
 
